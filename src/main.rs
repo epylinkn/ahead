@@ -1,9 +1,7 @@
 extern crate clap;
-extern crate regex;
 
 use std::process::Command;
 use clap::{Arg, App};
-use regex::Regex;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
   let matches = App::new("Ahead")
